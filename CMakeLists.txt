@@ -22,9 +22,6 @@ set(UVW_VERSION_PATCH 0)
 project(
     uvw
     VERSION ${UVW_VERSION_MAJOR}.${UVW_VERSION_MINOR}.${UVW_VERSION_PATCH}
-    DESCRIPTION "Header-only, event based, tiny and easy to use libuv wrapper in modern C++"
-    HOMEPAGE_URL "https://github.com/skypjack/uvw"
-    LANGUAGES C CXX
 )
 
 if(NOT CMAKE_BUILD_TYPE)
